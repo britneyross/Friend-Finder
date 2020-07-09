@@ -1,8 +1,13 @@
 {
   "name": "friend-finder",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Function  Friend Finder is a compatibility-based friend matching application. This full-stack site will take in results from users' personality surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,9 +21,5 @@
   "bugs": {
     "url": "https://github.com/britneyross/Friend-Finder/issues"
   },
-  "homepage": "https://github.com/britneyross/Friend-Finder#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/britneyross/Friend-Finder#readme"
 }
